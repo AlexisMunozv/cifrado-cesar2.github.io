@@ -1,9 +1,11 @@
 window.cipher = {
      encode: function(offset, string){
-       let text1=
-    for (let i=0, fin=i.length;i<fin; i++){
+       let text1 = document.getElementById('text1').value;
+       console.log(text1);
+
+    for (let i=0, fin=text1.length;i<fin; i++){
       
-      if (32==="") {
+      if (i=32, i==="") {
       
       }
       

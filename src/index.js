@@ -1,11 +1,10 @@
-// function cipher.encode(offset, string):{
-
-// }
-
-
+let string1 = document.getElementById("paraph").value;
+let offset=parseInt(document.getElementById("space").value);
+let string2=cipher.encode(offset,string1);
 
 
 
-// function cipher.decode(offset,string):{
 
-// }
+
+
+

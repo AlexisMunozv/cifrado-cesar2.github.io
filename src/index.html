@@ -8,21 +8,22 @@
   <body>
     <h1>Realiza tu código</h1>
     <div id="root">
-      <h2>Ingresa texto</h2>
       <p>Escoge el espacio</p>
       <form id="form1" name="form1" method= "post" action="">
-        <select name="Espacios" id="offset"></select>
-        offset(1,64);
-      </form>
-      <input type="text" id="text1" placeholder="Please type plaintext to cipher here">
-      <button  id="encodeButton">Encriptar</button>
-      <button  id="decodeButton"> Desencriptar</button>
-      <h2>Texto Encriptado</h2>
-      <input type="text" id="text1">
-      <h2>Texto Desencriptado</h2>
-      <input type="text" id="text2">
+        <input type="number" id="space">
       
+        <h2>Ingresa texto</h2>
+        <input type="text" id="paraph" placeholder="Please type plaintext to cipher here">
+        <button  id="encodeButton">Encriptar</button>
+        <button  id="decodeButton"> Desencriptar</button>
+        
+        <h2>Texto Encriptado</h2>
+        <input type="text" id="text1">
+        <h2>Texto Desencriptado</h2>
+        <input type="text" id="text2">
+    </form>
     </div>
+    <div></div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
      

@@ -1,7 +1,6 @@
 window.cipher = {
       encode: function(offset, string){
-        debugger
-         
+               
         let stringCode='';
         for (let i=0; i<string.length; i++){
          

@@ -6,7 +6,7 @@ window.cipher = {
        stringCode=stringcode+NewLetter;
 
         for (let i=0; i<string.length; i++){
-          let letterCodeASCI = string.charCodeAt(i);
+          let letterCodeASCI = string.toUpperCase().charCodeAt(i);
          
           if (letterCodeASCI===32) {
               stringcode='';
@@ -18,7 +18,7 @@ window.cipher = {
            }
            return stringCode
           }
-         document.getElementById("text1").innerHTML=stringCode;
+         
        }
 
 }

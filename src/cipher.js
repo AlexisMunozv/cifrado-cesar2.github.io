@@ -3,7 +3,7 @@ window.cipher = {
        let stringCode='';
        let NewLetter='';
        let letterCodeNumber=''
-       stringCode=stringcode+NewLetter;
+       
 
         for (let i=0; i<string.length; i++){
           let letterCodeASCI = string.toUpperCase().charCodeAt(i);
@@ -14,11 +14,13 @@ window.cipher = {
       
           else{
             letterCodeNumber=(letterCodeASCI-65 + offset)%26 + 65;
-            NewLetter=string.fromCharcode(letterCodeNumber);
+            NewLetter=String.fromCharCode(letterCodeNumber);
            }
-           return stringCode
+           stringCode=stringCode+NewLetter;
+           
           }
-         
+          return stringCode
        }
-
+      
+    
 }

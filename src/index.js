@@ -10,5 +10,5 @@ document.getElementById("text1").value = callFunctionEncode;
 let button2 = document.getElementById("decodeButton");
 button2.addEventListener("click", () => {
 let callFunctionDecode = window.cipher.decode(parseInt(offset.value), string.value);
-document.getElementById("text2").value = callFunctionDecode;
+document.getElementById("text1").value = callFunctionDecode;
 } );

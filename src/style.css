@@ -1,6 +1,44 @@
-body { background: black;
-  color: white;
-  font-family: 'Courier New', Courier, monospace;
+body { background: url(Imagenes/198.jpg) no-repeat center fixed;
+  background-size: cover; 
+  color: red;
+  font-family: 'Gugi';
   font-size: 40px;
 }
 
+#encodeButton{
+	background: #FED632;
+	border: none;
+  border-radius: 5em;
+	padding: 1em;
+	color: white;
+	font-size: 0.5em;
+	transition-duration: .5s;
+	margin-top: 2em;
+}
+
+#encodeButton:hover {
+	background: white;
+	border: 0.5em solid green;
+	color: black;
+	cursor: pointer;
+
+}
+
+#decodeButton{
+	background: #FED632;
+	border: none;
+	border-radius: 5em;
+	padding: 1em;
+	color: white;
+	font-size: 0.5em;
+	transition-duration: .5s;
+	margin-top: 2em;
+}
+
+#decodeButton:hover {
+	background: white;
+	border: 0.5em solid green;
+	color: black;
+	cursor: pointer;
+
+}

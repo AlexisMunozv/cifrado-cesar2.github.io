@@ -20,7 +20,7 @@ Este proyecto está diseñado para realizar un cifrado según los espacios que l
 3. Tú
 
 ## EMPECEMOS
- * 1-https://github.com/AlexisMunozv/lim-2018-05-bc-core-am-cipher
+ * 1-Ingresa a : https://github.com/AlexisMunozv/lim-2018-05-bc-core-am-cipher
  * 2-Escribe el numero de espacio. Más espacios significa que tu   codigo será más ilegible.
  * 3-Recuerda no poner caracteres especiales como: ¿ / @ ?
  * 4- Dale tu código y espacios a quién desees comunicarle

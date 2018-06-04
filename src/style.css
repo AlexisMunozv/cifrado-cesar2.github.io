@@ -2,43 +2,67 @@ body { background: url(Imagenes/198.jpg) no-repeat center fixed;
   background-size: cover; 
   color: red;
   font-family: 'Gugi';
-  font-size: 40px;
+  font-size: 30px;
 }
 
-#encodeButton{
-	background: #FED632;
-	border: none;
-  border-radius: 5em;
+#space{
+	border-radius: 2em;
 	padding: 1em;
+	width: 1em;
+	font-size: 0.8em;
+	font-family: 'Gugi';
+}
+
+#paraph{
+	border-radius: 2em;
+	padding: 1em;
+	font-size: 0.8em;
+}
+#text1{
+	border-radius: 2em;
+	padding: 1em;
+	font-size: 0.8em;
+}
+
+#encodeButton{ 
+    background: #C6FFDD;
+    background: -webkit-linear-gradient(to top, #f7797d, #FBD786, #C6FFDD); 
+    background: linear-gradient(to top, #f7797d, #FBD786, #C6FFDD); 
+	border: none;
+	border-radius: 5em;
+	padding: 1em;
+	width: 8em;
 	color: white;
-	font-size: 0.5em;
-	transition-duration: .5s;
+	font-size: 0.7em;
+	font-family: 'Gugi';
+	transition-duration: 0.5s;
 	margin-top: 2em;
 }
 
 #encodeButton:hover {
 	background: white;
-	border: 0.5em solid green;
+	border: 0.5em solid #27748B;
 	color: black;
 	cursor: pointer;
-
 }
 
 #decodeButton{
-	background: #FED632;
+	background: #C6FFDD;
+    background: -webkit-linear-gradient(to top, #f7797d, #FBD786, #C6FFDD); 
+    background: linear-gradient(to top, #f7797d, #FBD786, #C6FFDD); 
 	border: none;
 	border-radius: 5em;
 	padding: 1em;
 	color: white;
-	font-size: 0.5em;
+	font-size: 0.7em;
+	font-family: 'Gugi';
 	transition-duration: .5s;
 	margin-top: 2em;
 }
 
 #decodeButton:hover {
 	background: white;
-	border: 0.5em solid green;
+	border: 0.5em solid #27748B;
 	color: black;
 	cursor: pointer;
-
 }

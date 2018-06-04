@@ -6,7 +6,7 @@ Esconde tus mensajes y diviertete realizando sorpresas y contando tus secretos s
 
 Este proyecto está diseñado para realizar un cifrado según los espacios que le ingreses.
 
-![¿Cómo funciona?](Imagenes/CC.png, "¿Cómo funciona el cifrado?)
+![¿Cómo funciona?](Imagenes/CC.png, "¿Cómo funciona el cifrado?")
 
 ### Requisitos
 

@@ -19,7 +19,7 @@ window.cipher = {
           for(let i = 0; i<string.length; i++){
             let letterCodeASCI = string.toUpperCase().charCodeAt(i);
                 if (letterCodeASCI ===32){
-                  let emptySpace ='';
+                  let emptySpace =' ';
                   stringDecode += emptySpace;
                  } else {
                   let letterCodeNumber = (letterCodeASCI-65 - offset)%26 + 65;

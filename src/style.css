@@ -10,16 +10,14 @@ h1{
    color: #f1ebe5;	
 }
 label{
+	margin: 3rem;
 	text-shadow: 0 6px 7px #5606a1, 0px -2px 1px rgb(31, 5, 5);
 	color: #f1ebe5;
-	font-size: 0.8em;
+	font-size: 1em;
 	background: rgb(206, 178, 209, 0.8);
-	border: none;
 	border-radius: 3em;
 	padding:1em;
-	white-space: pre-line; 
-	margin: 5em;
-}
+	}
 #space{
 	color:black;
 	margin: 2em;
@@ -35,7 +33,7 @@ label{
 	background: linear-gradient(to bottom, #ece4d9 0%,#e9dfd1 100%);
 	border-radius: 2em;
 	padding: 1em;
-	font-size: 1em;
+	font-size: 1.3em;
 	margin: 2em;
 	color: black;
 }
@@ -53,9 +51,9 @@ footer{
 	padding: 1em;
 	width: 8em;
 	color: #747070;
-    font-size: 0.7em;
+    font-size: 0.9em;
 	font-family: 'Gugi';
-	transition-duration: 0.5s;
+	transition-duration: 0.5s;	
 }
 
 #encodeButton:hover {
@@ -70,9 +68,9 @@ footer{
 	border-radius: 5em;
 	padding: 1em;
 	color: #747070;
-	font-size: 0.7em;
+	font-size: 0.9em;
 	font-family: 'Gugi';
-	transition-duration: .5s;
+	transition-duration: 0.5s;
 }
 
 #decodeButton:hover {

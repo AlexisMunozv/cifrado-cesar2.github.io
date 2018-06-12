@@ -1,46 +1,61 @@
-body { background: url(Imagenes/198.jpg) no-repeat center fixed;
+body { background: url(Imagenes/679.PNG) no-repeat center fixed;
   background-size: cover; 
-  color: red;
   font-family: 'Gugi';
-  font-size: 30px;
-}
+  text-align: center;
+  align-self: auto;
+  }
 
+h1{
+   text-shadow: 0 6px 7px #5606a1, 0px -2px 1px rgb(31, 5, 5);
+   color: #f1ebe5;	
+}
+label{
+	text-shadow: 0 6px 7px #5606a1, 0px -2px 1px rgb(31, 5, 5);
+	color: #f1ebe5;
+	font-size: 0.8em;
+	background: rgb(206, 178, 209, 0.8);
+	border: none;
+	border-radius: 3em;
+	padding:1em;
+	white-space: pre-line; 
+	margin: 5em;
+}
 #space{
+	color:black;
+	margin: 2em;
 	border-radius: 2em;
 	padding: 1em;
 	width: 3em;
 	font-size: 0.8em;
 	font-family: 'Gugi';
+	background: #ece4d9;
 }
 
-#paraph{
+#paraph, #text1{
+	background: linear-gradient(to bottom, #ece4d9 0%,#e9dfd1 100%);
 	border-radius: 2em;
 	padding: 1em;
-	font-size: 0.8em;
+	font-size: 1em;
+	margin: 2em;
+	color: black;
 }
-#text1{
-	border-radius: 2em;
+
+footer{
+	background: linear-gradient(to bottom, #9593e9 0%,#ab82cc 100%);
+	color:#f1ebe5;
+	font-size: 0.5em;
 	padding: 1em;
-	font-size: 0.8em;
-}
-h5{
-	color:
-	font-size: 0.3em;
 }
 
 #encodeButton{ 
-    background: #C6FFDD;
-    background: -webkit-linear-gradient(to top, #f7797d, #FBD786, #C6FFDD); 
     background: linear-gradient(to top, #f7797d, #FBD786, #C6FFDD); 
-	border: none;
 	border-radius: 5em;
 	padding: 1em;
 	width: 8em;
-	color: white;
-	font-size: 0.7em;
+	color: #747070;
+    font-size: 0.7em;
 	font-family: 'Gugi';
 	transition-duration: 0.5s;
-	margin-top: 2em;
 }
 
 #encodeButton:hover {
@@ -51,17 +66,13 @@ h5{
 }
 
 #decodeButton{
-	background: #C6FFDD;
-    background: -webkit-linear-gradient(to top, #f7797d, #FBD786, #C6FFDD); 
-    background: linear-gradient(to top, #f7797d, #FBD786, #C6FFDD); 
-	border: none;
+	background: linear-gradient(to top, #f7797d, #FBD786, #C6FFDD); 
 	border-radius: 5em;
 	padding: 1em;
-	color: white;
+	color: #747070;
 	font-size: 0.7em;
 	font-family: 'Gugi';
 	transition-duration: .5s;
-	margin-top: 2em;
 }
 
 #decodeButton:hover {

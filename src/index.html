@@ -7,25 +7,34 @@
     <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
   </head>
   <body>
+    <header>
     <h1 align="center" >Realiza tu código</h1>
-    <div id="root" align="center" >
-      <p>Escoge el espacio</p>
+  </header>
+
+  <section>
+        <label>Escoge tu clave</label>
+        <br>
         <input type="number" id="space">
-      
-        <h3>Ingresa texto</h3>
-        <input type="text" id="paraph" placeholder="Please type plaintext to cipher here">
+        <br>
+        <label>Ingresa un Texto o Codigo</label>
+        <br>
+        <textarea rows="10" cols="45"   id="paraph" placeholder="Please type text to cipher here"></textarea>
         <br>
         <button  id="encodeButton">Encriptar</button>
         <button  id="decodeButton"> Desencriptar</button>
-        
-        <h3>CODIGO Y TEXTO</h3>
-        <input type="text" id="text1" placeholder="Your cipher code will be here">
         <br>
         <br>
-        <h5>Realizado por Alexis Munoz Verde</h5>
-    
-    </div>
-    <div></div>
+        <label>RESULTADO</label>
+        <br>
+        <textarea rows="10" cols="45" id="text1" placeholder="Your cipher code will be here"></textarea>
+        <br>
+        <br>
+    </section>
+  
+  <section>
+    <footer>Realizado por Alexis Munoz Verde</footer>
+  </section>
+   
     <script src="cipher.js"></script>
     <script src="index.js"></script>
      
